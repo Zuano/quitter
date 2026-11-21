@@ -5,7 +5,7 @@ macOS menu bar app that quits selected apps after they have been in the backgrou
 Originally built to close **Epson Scan 2** automatically; pairs with [Epson Scan Opener](https://github.com/Zuano/epson-scan-opener).
 
 ## Recommended setting for Epson Scan 2
-Set the timeout for Epson Scan 2 **shorter than your scanner's standby time** (e.g. 12 minutes if the scanner goes to standby after ~13 minutes). If the scanner falls asleep first, Epson Scan 2 shows an error dialog and ignores the quit request, so it stays open.
+Set the timeout for Epson Scan 2 **shorter than your scanner's standby time** (e.g. 10 minutes if the scanner goes to standby after ~13 minutes). If the scanner falls asleep first, Epson Scan 2 shows an error dialog and ignores the quit request, so it stays open.
 
 ## Build
 1. Open `Quitter.xcodeproj` in Xcode (macOS 13+).

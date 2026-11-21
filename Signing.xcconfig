@@ -1,0 +1,3 @@
+// Shared signing settings. Your Team ID goes into Signing.local.xcconfig (not committed).
+// Gemeinsame Signier-Einstellungen. Deine Team-ID kommt in Signing.local.xcconfig (wird nicht hochgeladen).
+#include? "Signing.local.xcconfig"
